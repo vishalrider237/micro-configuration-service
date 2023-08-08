@@ -1,6 +1,6 @@
-#spring:
-#  application:
-#    name: CONFIG-PROD
+spring:
+  application:
+    name: CONFIG-PROD
 
 
 eureka:
@@ -10,4 +10,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8083/eureka
+      defaultZone: https://serviceregistry-production.up.railway.app/eureka
